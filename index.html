@@ -5,64 +5,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
-    <ul id="menu">
-        <li>
-            <a href="index.html">Home</a>
-        </li>
-        <li>
-            <a href="contato.html">Contato</a>
-        </li>
-    </ul>
+    <header>
+        <nav>
+            <img class="logo" src="./assets/img/logo.png" alt="Imagem do logotipo com o nome gabzoom">
 
-    <h1 class="center">Sobre o Gabriel</h1>
+            <ul id="menu">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <h1 class="center">Sobre o Gabriel</h1>
 
-    <div class="container">
-        <div class="p-30">
-            <p class="center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam assumenda provident officiis quos maxime
-                dolores
-                sint quidem fuga suscipit fugiat veritatis excepturi quaerat, perspiciatis repellendus in omnis odio
-                harum
-                iste!
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum ipsam ullam, eum impedit reprehenderit
-                molestias.
-                Illum, hic optio harum placeat dignissimos iusto et amet eaque eum voluptatem quos, possimus commodi.
-            </p>
+        <div class="container">
+            <img class="br-50 wh-250 p-30" src="assets/img/drizzy.jpg" alt="Foto do criador desse conteúdo">
 
-            <p class="center">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae reprehenderit ad quod facilis,
-                quibusdam
-                reiciendis recusandae magnam. Ullam eligendi est excepturi sapiente dolorum fuga repellat alias iste.
-                Delectus,
-                eos libero!
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi nesciunt dolor quidem quisquam,
-                pariatur
-                consequuntur eum culpa hic consectetur ullam quibusdam suscipit provident. Accusantium eaque tenetur
-                natus
-                laborum ipsam voluptas?
-            </p>
+            <div class="p-30">
+                <p class="center">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam assumenda provident officiis quos
+                    maxime
+                    dolores
+                    sint quidem fuga suscipit fugiat veritatis excepturi quaerat, perspiciatis repellendus in omnis odio
+                    harum
+                    iste!
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum ipsam ullam, eum impedit reprehenderit
+                    molestias.
+                    Illum, hic optio harum placeat dignissimos iusto et amet eaque eum voluptatem quos, possimus
+                    commodi.
+                </p>
+
+                <p class="center">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae reprehenderit ad quod facilis,
+                    quibusdam
+                    reiciendis recusandae magnam. Ullam eligendi est excepturi sapiente dolorum fuga repellat alias
+                    iste.
+                    Delectus,
+                    eos libero!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi nesciunt dolor quidem quisquam,
+                    pariatur
+                    consequuntur eum culpa hic consectetur ullam quibusdam suscipit provident. Accusantium eaque tenetur
+                    natus
+                    laborum ipsam voluptas?
+                </p>
+            </div>
         </div>
 
-        <div>
-            <img class="br-50 wh-300 p-30" src="assets/img/drizzy.jpg" alt="Foto do criador desse conteúdo"
-                width="100%">
+        <div class="media">
+            <div>
+                <h2 class="center">Meu vídeo predileto:</h2>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/WWggmC8kYZc?si=DK5EI8pshDGw6Szq"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            <div>
+                <h2 class="center">Minha playlist favorita:</h2>
+
+                <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/playlist/2b0Whbxq5kkkcH1usCfhdu?utm_source=generator"
+                    width="100%" height="352" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                </iframe>
+            </div>
         </div>
-    </div>
+    </main>
 
-    <h2 class="center">Meu vídeo predileto:</h2>
+    <footer>
+        <img class="logo" src="./assets/img/logo.png" alt="Imagem do logotipo com o nome gabzoom">
 
-    <div class="container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/WWggmC8kYZc?si=DK5EI8pshDGw6Szq"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen>
-        </iframe>
-    </div>
+        <p>
+            Desenvolvido por @gabzoom.<br />
+            Projeto fictício sem fins comerciais.
+        </p>
+    </footer>
 </body>
 
 </html>
