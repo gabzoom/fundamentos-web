@@ -99,3 +99,18 @@ footer {
 }
 
 /* Estilos da página contato.html */
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 50px;
+}
+
+.titulo-contato {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.endereco p {
+    margin-bottom: 13px;
+}
